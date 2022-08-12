@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+$red : #fb637eff;
+$lightblue : #73D2E6;
+$white : #FFFFFF;
+$YELLOW : #F7EB61;
+$black : #000000;
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    background-color: $YELLOW;
+}
+h1,h2,h3,h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+

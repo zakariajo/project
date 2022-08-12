@@ -1,0 +1,108 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  background-color: #F7EB61;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.ads {
+  display: flex;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(90deg, #fb637e, #5e549b);
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 17px;
+  position: relative;
+}
+.ads .exit {
+  right: 20px;
+  position: absolute;
+  cursor: pointer;
+}
+
+/* head section */
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.head {
+  background-color: #73D2E6;
+  color: #FFFFFF;
+}
+.head .tophead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+}
+.head .tophead .search-findus, .head .tophead .users {
+  display: flex;
+  text-align: center;
+  gap: 20px;
+}
+.head .tophead .search-findus i, .head .tophead .users i {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.head .tophead .search-findus h3, .head .tophead .users h3 {
+  font-weight: 300;
+}
+.head .tophead h1 {
+  font-size: 50px;
+}
+.head .tophead h1 sup {
+  font-size: 18px;
+}
+.head .nav {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.head .nav li {
+  position: relative;
+}
+.head .nav li a {
+  color: #FFFFFF;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 0 30px;
+}
+> .head .nav li:not(:last-child):before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 3px;
+  background-color: #FFFFFF;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%) rotate(30deg);
+}
+.head .nav .submenu {
+  position: absolute;
+  background-color: #FFFFFF;
+  top: 40px;
+  left: -172%;
+  width: 95vw;
+  padding: 10px;
+}
+.head .nav .submenu a {
+  color: black;
+}/*# sourceMappingURL=style.css.map */
